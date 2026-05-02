@@ -113,26 +113,12 @@ Keep that terminal open while using the extension.
 | Enter (in chat) | Send message |
 | Shift+Enter (in chat) | New line |
 
----
-
-## Files
-
-```
-manifest.json     — MV3 manifest, permissions, host declarations
-background.js     — Service worker: builds requests, streams SSE, handles all providers
-content.js        — Injected into every page: panel UI, drag, chat, all interactions
-content.css       — Panel styles (scoped to #ai-assist-panel)
-popup.html/js     — Toolbar popup for configuring credentials
-models.json       — Model name suggestions per provider
-icons/            — 16/48/128px extension icons
-FAQ.md            — Troubleshooting and how-to guides
-```
 
 ---
 
 ## Troubleshooting
 
-See [FAQ.md](FAQ.md) for:
+See [FAQ.md](docs/FAQ.md) for:
 - Ollama CORS 403 error and fix
 - Azure Forbidden / 403
 - Insert button greyed out
