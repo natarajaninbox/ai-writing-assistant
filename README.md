@@ -118,7 +118,7 @@ Keep that terminal open while using the extension.
 
 ## Troubleshooting
 
-See [FAQ.md](docs/FAQ.md) for:
+See [FAQ.md](./docs/FAQ.md) for:
 - Ollama CORS 403 error and fix
 - Azure Forbidden / 403
 - Insert button greyed out
